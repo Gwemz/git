@@ -49,6 +49,8 @@ git remote add origin git@github-second:second/test.git
 
 注意：github根据配置文件的user.email来获取github帐号显示author信息，所以对于多帐号用户一定要记得将user.email改为相应的email(second@mail.com)。
 
+#### 相关参考文章：
+
 http://www.jianshu.com/p/ee2578821d49
 
 https://gist.github.com/suziewong/4378434
