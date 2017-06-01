@@ -10,7 +10,7 @@ git账号的相关研究使用
 
 背景
 
-今天给我女朋友弄了个github账号，由于准备全部在一台mbp上管理，当准备给新的github账号添加ssh key的时候提示我该ssh key已经使用过了，因为我之前已经把该ssh key添加到我的github账号上了。
+今天弄了一个新的github账号，由于准备全部在一台mbp上管理，当准备给新的github账号添加ssh key的时候提示我该ssh key已经使用过了，因为我之前已经把该ssh key添加到我的github账号上了。
 
 原因
 
@@ -48,3 +48,11 @@ git remote add origin git@github-second:second/test.git
 这样每次连接都会使用id_rsa_second与服务器进行连接。至此，大功告成！
 
 注意：github根据配置文件的user.email来获取github帐号显示author信息，所以对于多帐号用户一定要记得将user.email改为相应的email(second@mail.com)。
+
+http://www.jianshu.com/p/ee2578821d49
+
+https://gist.github.com/suziewong/4378434
+
+http://stormzhang.com/other/2013/10/16/github-multiply-ssh-key/
+
+https://github.com/iuap-design/blog/issues/144
